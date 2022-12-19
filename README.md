@@ -7,7 +7,7 @@
 **종류**
 
 - 단순 구조 : 정수, 실수, 문자열, 논리
-- 선형 구조 : 배열, 연결 리스트, 스택, 큐
+- 선형 구조 : [배열](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EB%B0%B0%EC%97%B4.md), [연결 리스트](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8.md), [스택](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EC%8A%A4%ED%83%9D.md), 큐
 - 비선형 구조 : 트리, 그래프
 
 # 💎 알고리즘
