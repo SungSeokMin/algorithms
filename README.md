@@ -8,7 +8,7 @@
 
 - 단순 구조 : 정수, 실수, 문자열, 논리
 - 선형 구조 : [배열](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EB%B0%B0%EC%97%B4.md), [연결 리스트](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8.md), [스택](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EC%8A%A4%ED%83%9D.md), [큐](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%ED%81%90.md)
-- 비선형 구조 : [트리](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%ED%8A%B8%EB%A6%AC.md), [그래프](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EA%B7%B8%EB%9E%98%ED%94%84.md), [힙](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%ED%9E%99.md)
+- 비선형 구조 : [트리](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%ED%8A%B8%EB%A6%AC.md), [그래프](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%EA%B7%B8%EB%9E%98%ED%94%84.md), [힙](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%ED%9E%99.md), [트라이](https://github.com/SungSeokMin/front-end-algorithms/blob/master/data-structure/%ED%8A%B8%EB%9D%BC%EC%9D%B4.md)
 
 # 💎 알고리즘
 
