@@ -17,6 +17,25 @@ solution(["ENQUEUE 3", "ENQUEUE 5", "DEQUEUE", "DEQUEUE", "DEQUEUE"])
 
 ---
 
+## 접근 방식
+
+### 자료구조: 큐 (Queue)
+
+- **왜 이 자료구조인가?**: 문제 자체가 큐를 직접 시뮬레이션하는 문제다. ENQUEUE/DEQUEUE 명령어가 정확히 큐의 push/pop에 대응한다. FIFO 순서(먼저 넣은 것이 먼저 나옴)가 명령어 결과와 일치한다.
+- **핵심 패턴**: 자료구조 시뮬레이션 패턴. 명령어를 파싱해서 해당 연산을 직접 수행한다. 문자열 파싱 + 조건 분기 구조가 핵심이다.
+- **풀기 전 체크리스트**:
+  - 추적해야 할 상태: 현재 큐의 내용, DEQUEUE 결과 목록
+  - 입력: 명령어 문자열 배열, 출력: DEQUEUE 결과만 모은 배열
+  - 엣지케이스: DEQUEUE 시 큐가 비어있는 경우 (`"EMPTY"` 반환), ENQUEUE만 있는 경우 (결과 배열이 빔)
+- **일반적인 접근 순서**:
+  1. 명령어 배열을 순회
+  2. 각 명령어를 파싱해 action과 value 분리
+  3. ENQUEUE면 값을 큐에 추가
+  4. DEQUEUE면 큐에서 앞 원소를 꺼내거나 비어있으면 `"EMPTY"` 추가
+  5. 결과 배열 반환
+
+---
+
 ## 내 풀이
 
 ```js
@@ -61,7 +80,7 @@ console.log(
 ## Claude 풀이
 
 ```js
-function solution(commands) {
+function solutionByClaude(commands) {
   const queue = [];
   const result = [];
   let head = 0;
