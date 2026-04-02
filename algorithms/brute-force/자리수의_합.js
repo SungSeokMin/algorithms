@@ -1,0 +1,3 @@
+function solution(array) {}
+
+console.log(solution([128, 460, 603, 40, 521, 137, 123]));
